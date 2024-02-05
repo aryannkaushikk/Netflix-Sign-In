@@ -1,0 +1,200 @@
+body{
+    background: url(NetflixBG.jpg);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    height: 90px;
+    width: 180px;
+    padding: 0px 20px;
+}
+
+#main {
+    display: grid;
+    height: 84vh;
+    grid-template: repeat(15, 1fr)/ repeat(11, 1fr);
+}
+
+#blbg{
+    grid-area: 2/5/15/8;
+    background-color: black;
+    z-index: -1;
+    filter: opacity(0.8);
+    border-radius: 3px;
+    /*border: 5px solid white;*/ 
+}
+
+#det{
+    grid-area: 2/5/15/8;
+    color: aliceblue;
+    padding: 40px 50px;
+    
+}
+
+#sg{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+#nme{
+    filter: opacity(0.4);
+    width: 309px;
+    height: 36px;
+    margin: 20px 0px;
+    border-radius: 6px;
+    background-color: #62676f;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#pass{
+    filter: opacity(0.4);
+    width: 309px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #62676f;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#sgn{
+    background-color: red;
+    color: white;
+    width: 318px;
+    height: 36px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#remme{
+    margin-left: -1px;
+}
+
+.remme{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#nh{
+    margin-left: 147px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#sigu{
+    margin: 60px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+    body{
+        background: url(NetflixBG\(P\).jpg);
+        background-size: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    #logo{
+        height: 66px;
+        width: 120px;
+        padding: 0px 10px;
+    }
+
+    #main {
+        display: grid;
+        height: 84vh;
+        grid-template: repeat(15, 1fr)/ repeat(8, 1fr);
+    }
+
+    #blbg{
+        grid-area: 2/3/15/7;
+        background-color: black;
+        z-index: -1;
+        filter: opacity(0.8);
+        border-radius: 3px;
+        /*border: 5px solid white;*/ 
+    }
+
+    #det{
+        grid-area: 2/3/15/7;
+        color: aliceblue;
+        padding: 40px 50px;
+    }
+
+    #sg{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    #nme{
+        filter: opacity(0.4);
+        width: 176px;
+        height: 30px;
+        margin: 20px 0px;
+        border-radius: 6px;
+        background-color: #62676f;
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    
+    #pass{
+        filter: opacity(0.4);
+        width: 176px;
+        height: 30px;
+        border-radius: 6px;
+        background-color: #62676f;
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    
+    #sgn{
+        background-color: red;
+        color: white;
+        width: 185px;
+        height: 30px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+    
+    #remme{
+        margin-left: -1px;
+    }
+    
+    .remme{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9px;
+    }
+    #nh{
+        margin-left: 49px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9px;
+    }
+    
+    #sigu{
+        margin: 60px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+}
