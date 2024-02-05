@@ -122,7 +122,7 @@ body{
     }
 
     #blbg{
-        grid-area: 2/2/13/8;
+        grid-area: 2/2/11/8;
         background-color: black;
         z-index: -1;
         filter: opacity(0.8);
