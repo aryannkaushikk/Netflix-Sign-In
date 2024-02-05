@@ -121,7 +121,7 @@ body{
     }
 
     #blbg{
-        grid-area: 2/3/15/7;
+        grid-area: 2/2/15/8;
         background-color: black;
         z-index: -1;
         filter: opacity(0.8);
@@ -130,7 +130,7 @@ body{
     }
 
     #det{
-        grid-area: 2/3/15/7;
+        grid-area: 2/2/15/8;
         color: aliceblue;
         padding: 40px 50px;
     }
